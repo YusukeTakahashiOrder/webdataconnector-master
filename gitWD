@@ -1,0 +1,16 @@
+git clone https://github.com/tableau/webdataconnector.git
+Change to the directory where you downloaded the repository:
+
+cd webdataconnector
+Run the simulator
+Install dependencies with npm:
+
+npm install --production
+Note: You must run the command with administrator or sudo privileges.
+
+Start the test web server:
+
+npm start
+Open a browser and navigate to the following URL:
+
+http://localhost:8888/Simulator/index.html
